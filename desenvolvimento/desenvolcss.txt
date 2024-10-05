@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1> Cadastrar alunos</h1>
+    <h1> Formulario de contato</h1>
     <form>
-<label form="nome"><b>Nome do aluno: </b> </label>
+<label form="nome"><b>Nome: </b> </label>
 <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" size="50"><br><br>
 
 <label form="endereco"><b>Endereco: </b> </label>
@@ -50,14 +50,14 @@
 <label form="nome"><b>E-mail: </b> </label>
 <input type="email" id="e-mail" name="e-mail" placeholder="@" size="40"><br><br>
 
-<!--<label form="Senha"><b>Senha: </b> </label>
-<input type="password" id="senha" name="senha"  size="40"><br><br> -->
+<label form="Senha"><b>Senha: </b> </label>
+<input type="password" id="senha" name="senha"  size="40"><br><br>
 
 <label form="Data_nasc"><b>Data de nascimento: </b> </label>
 <input type="date" id="date" name="date"  ><br><br>
 
-<!--<label form="Quantidade_depend"><b>Quantidade de dependentes: </b> </label>
-<input type="number" id="dependentes" name="dependentes" min="1" max="5" > -->
+<label form="Quantidade_depend"><b>Quantidade de dependentes: </b> </label>
+<input type="number" id="dependentes" name="dependentes" min="1" max="5" >
 
 <label form="TEL"><b>Telefone</b> </label>
 <input type="tel" id="tel" name="tel" placeholder="(xx) xxxx-xxxx"><br><br>
@@ -65,14 +65,10 @@
 <input type="radio" id="feminino" name="genero" value="feminino">Feminino
 <input type="radio" id="masculino" name="genero" value="masculino">Masculino<br><br>
 
-<!--Envie sua foto: <input type="file" name="foto"><br><br>-->
-<!--<input type="search" name="busca" placeholder="pesquisar....">
-<input type="button" name="pesquisar" value="pesquisar"> -->
+Envie sua foto: <input type="file" name="foto"><br><br>
+<input type="search" name="busca" placeholder="pesquisar....">
+<input type="button" name="pesquisar" value="pesquisar">
 <br><br>
-
-<label form="nome"><b>Observação: </b> </label>
-<input type="text" id="nome" name="nome" placeholder="Digite a observação..." size="50" style="padding: 30px;"><br><br>
-
 <input type="submit" value="Enviar">   <input type="reset" value="Limpar">
 
 
@@ -82,8 +78,6 @@ Você avalia nosso site :
 <input type="range" name="volue" min="0" max="100" >
 
 -->
-
-
 
     </form>
 </body>

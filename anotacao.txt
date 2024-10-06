@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1> Formulario de contato</h1>
+    <form>
+<label form="nome"><b>Nome: </b> </label>
+<input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" size="50"><br><br>
+
+<label form="endereco"><b>Endereco: </b> </label>
+<input type="text" id="endereco" endereco="nome" placeholder="Digite seu endereco aqui" size="50"><br><br>
+
+<label form="estado"><b>Estado</b></label>
+<select name="estado">
+    <option selected="" value="">Selecione o Estado (UF)</option>
+    <option value="Acre">Acre</option>
+    <option value="Alagoas">Alagoas</option>
+    <option value="Amapá">Amapá</option>
+    <option value="Amazonas">Amazonas</option>
+    <option value="Bahia">Bahia</option>
+    <option value="Ceará">Ceará</option>
+    <option value="Distrito Federal">Distrito Federal</option>
+    <option value="Espírito Santo">Espírito Santo</option>
+    <option value="Goiás">Goiás</option>
+    <option value="Maranhão">Maranhão</option>
+    <option value="Mato Grosso">Mato Grosso</option>
+    <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+    <option value="Minas Gerais">Minas Gerais</option>
+    <option value="Pará">Pará</option>
+    <option value="Paraíba">Paraíba</option>
+    <option value="Paraná">Paraná</option>
+    <option value="Pernambuco">Pernambuco</option>
+    <option value="Piauí">Piauí</option>
+    <option value="Rio de Janeiro">Rio de Janeiro</option>
+    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+    <option value="Rondônia">Rondônia</option>
+    <option value="Roraima">Roraima</option>
+    <option value="Santa Catarina">Santa Catarina</option>
+    <option value="São Paulo">São Paulo</option>
+    <option value="Sergipe">Sergipe</option>
+    <option value="Tocantins">Tocantins</option>
+    </select><br><br>
+
+<label form="nome"><b>E-mail: </b> </label>
+<input type="email" id="e-mail" name="e-mail" placeholder="@" size="40"><br><br>
+
+<label form="Senha"><b>Senha: </b> </label>
+<input type="password" id="senha" name="senha"  size="40"><br><br>
+
+<label form="Data_nasc"><b>Data de nascimento: </b> </label>
+<input type="date" id="date" name="date"  ><br><br>
+
+<label form="Quantidade_depend"><b>Quantidade de dependentes: </b> </label>
+<input type="number" id="dependentes" name="dependentes" min="1" max="5" >
+
+<label form="TEL"><b>Telefone</b> </label>
+<input type="tel" id="tel" name="tel" placeholder="(xx) xxxx-xxxx"><br><br>
+<b> Sexo: </b>
+<input type="radio" id="feminino" name="genero" value="feminino">Feminino
+<input type="radio" id="masculino" name="genero" value="masculino">Masculino<br><br>
+
+Envie sua foto: <input type="file" name="foto"><br><br>
+<input type="search" name="busca" placeholder="pesquisar....">
+<input type="button" name="pesquisar" value="pesquisar">
+<br><br>
+<input type="submit" value="Enviar">   <input type="reset" value="Limpar">
+
+
+
+<!--<input type="checkbox" name="termo_aceite"> Aceito receber ofertas do site
+Você avalia nosso site :
+<input type="range" name="volue" min="0" max="100" >
+
+-->
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1 - Loja de Informática</title>
+    <style>
+        /* Estilo do letreiro digital */
+        .letreiro {
+            font-size: 24px;
+            color: white;
+            background-color: green;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Estilo da tabela */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgb(234, 234, 238);
+        }
+        table, th, td {
+            border: 2px solid red;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        .preco {
+            background-color: rgb(234, 234, 238);
+            font-weight: bold;
+        }
+
+        /* Estilo do botão voltar */
+        .voltar {
+            display: block;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        hr.custom {
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- Letreiro digital -->
+    <div class="letreiro">Bem-vindo à Loja de Informática!</div>
+
+    <!-- Links para seções na mesma página -->
+    <nav>
+        <ul>
+            <li><a href="#tabela-precos">Tabela de Preços</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Link para a página 2 -->
+    <p><a href="segunda.html">Ir para a Página 2</a></p>
+
+    <!-- Tabela de preços -->
+    <h2 id="tabela-precos">Tabela de Preços</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th class="preco">Preço</th>
+                <th>Estoque</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Capa estofado</td>
+                <td class="preco">R$ 15,00</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Pneu</td>
+                <td class="preco">R$ 130,00</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Lanterna traseira</td>
+                <td class="preco">R$ 180,00</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Bateria</td>
+                <td class="preco">R$ 12,00</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Linha horizontal após a tabela -->
+    <hr>
+
+    <!-- Botão "Voltar para o topo" -->
+    <button>Voltar para o topo</button></a>
+ 
+
+    <!-- Seção de cursos -->
+    <h2>Cursos</h2>
+    <ol>
+        <li>Curso técnico ADM</li>
+        <li>Curso técnico Informática</li>
+    </ol>
+
+    <ul>
+        <li>1º trimestre
+            <ol>
+                <li>Prova parcial</li>
+                <li>Prova trimestral</li>
+                <li>Trabalho</li>
+            </ol>
+        </li>
+        <li>2º trimestre
+            <ol>
+                <li>Prova parcial</li>
+                <li>Prova trimestral</li>
+                <li>Trabalho</li>
+            </ol>
+        </li>
+    </ul>
+
+    <!-- Linha horizontal após os cursos -->
+    <hr>
+
+    <!-- Botão "Voltar para o topo" -->
+    <button>Voltar para o topo</button></a>
+
+    <!-- Seção de fotos -->
+    <h2 id="fotos">Fotos</h2>
+    <img src="foto.jpg" alt="Foto do Curso" width="300">
+
+    <!-- Linha horizontal com cor azul -->
+    <hr class="custom">
+
+    <!-- Outra linha horizontal com 20% de largura, centralizada -->
+    <hr style="width: 20%; margin: 0 auto;">
+
+    <!-- Nome do aluno alinhado à esquerda -->
+    <p style="text-align: left;">Nome do Aluno: João Silva</p>
+
+    <!-- Botão "Voltar para o topo" -->
+    <button>Voltar para o topo</button></a>
+</body>
+</html>
